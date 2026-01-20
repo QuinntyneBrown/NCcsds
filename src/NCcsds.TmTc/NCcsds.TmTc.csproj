@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>CCSDS TM/TC frame processing library with COP-1 support</Description>
+    <Authors>NCcsds Contributors</Authors>
+    <PackageTags>ccsds;space;telemetry;telecommand;cop1</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NCcsds.Core\NCcsds.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <Description>CCSDS File Delivery Protocol (CFDP) implementation supporting Class 1 and Class 2 file transfers</Description>
+    <Authors>NCcsds Contributors</Authors>
+    <PackageTags>ccsds;cfdp;file-transfer;space</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NCcsds.Core\NCcsds.Core.csproj" />
+  </ItemGroup>
+
+</Project>
